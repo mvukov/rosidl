@@ -17,7 +17,7 @@ from rosidl_adapter.resource import expand_template
 
 
 def convert_action_to_idl(package_dir, package_name, input_file, output_dir):
-    assert package_dir.is_absolute()
+    # assert package_dir.is_absolute()
     assert not input_file.is_absolute()
     assert input_file.suffix == '.action'
 
